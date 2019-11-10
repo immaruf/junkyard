@@ -1,0 +1,56 @@
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 400px;
+    width: 1200px;
+    background: rgba(23, 93, 28, 0.88);
+    box-shadow: 0 25px 30px rgba(0,0,0,.5);
+    display: flex;
+}
+.content5{
+    width: calc(50% - 50px);
+    height: 100%;
+    background: #000;
+    box-sizing: border-box;   
+    padding: 50px 70px;
+    font-family: sans-serif;
+    color: #fff;
+}
+.content5 h1{
+    background: transparent;
+}
+.content5 p{
+    background: transparent;
+    margin: 10px 0;
+
+}
+.immagebox{
+    width: calc(50% + 50px);
+    height: 100%;
+    background: #f00;
+    box-sizing: border-box; 
+    border-left: 100px solid #000;
+    border-bottom: 400px solid transparent;
+    background: url(image/college%20bag.jpg);
+    background-size: 600px 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
