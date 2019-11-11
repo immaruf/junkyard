@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: sans-serif;
+}
+.clr{
+    clear: both;
+}
+.full_wr{
+    width: 100%;
+}
+.main_wr{
+    width: 1170px;
+    margin: 0 auto;
+}
+.full_header{
+    padding: 25px 0;
+    background-color: rgba(81, 94, 96, 0.79);
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.menu{
+    width: 70%;
+    float: right;
+    text-align: right;
+    padding-top: 10px;
+        
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    font-size: 17px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    transition: 1s;
+}
+.menu ul li a:hover{
+    border: 1px solid #028794;
+}
+.full_banner{
+    background: url(../img/banner.jpg) top left no-repeat;
+    background-size: cover;
+    height: 820px;
+    text-align: right;
+    position: relative;
+    z-index: 1;
+}
+.full_banner:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+.banner_text{
+    padding-top: 430px;
+    padding-left: 675px;
+    font-size: 40px;
+    color: white;
+}
+.full_about{
+    margin: 55px 0;
+}
+.about_text{
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding-top: 5%;
+}
+..about_text h1{
+    font-size: 26px;
+}
+.about_text p{
+    font-size: 15px;
+}
+.abt_img{
+    width: 35%;
+    float: right;
+    padding-left: 10%;
+}
+.full_service{
+    background: url(../img/banner2.jpg) left top no-repeat;
+    height: 426px;
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+}
+.full_service:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+.service_text{
+    text-align: center;
+}
+.service_text h1{
+    color: #007582;
+    padding-top: 58px;
+    font-size: 25px;
+}
+.service_text p{
+    color: white;
+    font-size: 14px;
+    padding-top: 22px;
+    border-bottom: 1px solid #b3b9bd;
+    display: inline-block;
+}
+.service{
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.type{
+    position: relative;
+    width: 30%;
+        
+}
+.type i{
+    font-size: 20px;
+    background-color: #007582;
+    padding: 18px 18px;
+    border-radius: 100%;
+    }
+.type p{
+    color: #cdcbcc;
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+.full_gallery{
+    margin-top: 55px;
+}
+.gallery_txt{
+    text-align: center;
+}        
+.gallery_txt h1{
+    font-size: 25px;
+        color: #028794;
+
+}        
+.gallery_txt p{
+    font-size: 15px;
+    padding: 25px 295px;
+    color: #303132;
+}        
+.gallery{
+    float: left;
+    display: flex;
+    position: relative;
+}        
+        
+        
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(2, 135, 148, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 2s;
+    color: white;
+}  
+.gallery:hover .overlay {
+    opacity: 1;
+    transition: 2s;
+    width: 100%;
+}
+.overlay p{
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 40%;
+}
+.overlay i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.full_news{
+    padding: 40px 0;
+}
+.news_text{
+    text-align: center;
+}
+.news_text h3{
+    color: #007582;
+    font-size: 25px;
+}
+.news_text p{
+    font-size: 14px;
+    padding: 25px 290px;
+    display: inline-block;
+}
+.news_img{
+    width: 30%;
+    float: left;
+    padding: 20px 0;
+    padding-right: 3.33%;
+}.news_img h3{
+    font-size: 13px;
+    color: black;
+    padding-top: 20px;
+}
+.news_img h6{
+    color: #028794;
+}
+.news_img p{
+    font-size: 15px;
+    color: black;
+    padding-top: 10px;
+}
+
+.full_footer {
+    background-color: black;
+}
+.footer{
+    padding: 25px;
+}
+.footer p {
+    float: left;
+    font-size: 15px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.footer ul li {
+    float: right;
+    font-size: 40px;
+    list-style-type: none;
+    padding-bottom: 20px;
+    
+}
+
+.footer ul li i {
+    padding-left: 10px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
